@@ -177,7 +177,7 @@ export const RestaurantCard = ({
             <Body type="span">This restaurant is closed.</Body>
           </Closed>
         )}
-        <RestaurantImage $isClosed={isClosed} loading="lazy" src={photoUrl} alt="restaurant" />
+        <RestaurantImage $isClosed={isClosed} loading="lazy" src={photoUrl} />
       </ImageContainer>
       <StyledContent>
         <StyledHeading level={2}>{name}</StyledHeading>

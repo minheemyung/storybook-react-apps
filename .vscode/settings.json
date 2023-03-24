@@ -12,5 +12,6 @@
     "titleBar.inactiveBackground": "#50b1b6c0",
     "titleBar.activeForeground": "#F6FCEE"
   },
-  "deepscan.ignoreConfirmWarning": true
+  "deepscan.ignoreConfirmWarning": true,
+  "liveServer.settings.port": 5501
 }
