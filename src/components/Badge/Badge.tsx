@@ -28,7 +28,7 @@ type BadgeProps = {
 export const Badge = ({ text, className }: BadgeProps) => (
   <Container className={className}>
     {/* use typography component for body text */}
-    <Body type="span" size="S">
+    <Body type="span" size="XS">
       {text}
     </Body>
   </Container>
